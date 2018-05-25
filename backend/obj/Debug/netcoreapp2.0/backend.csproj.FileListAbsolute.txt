@@ -1,0 +1,11 @@
+C:\Users\wesley\angularprimeng\backend\obj\Debug\netcoreapp2.0\backend.csprojResolveAssemblyReference.cache
+C:\Users\wesley\angularprimeng\backend\obj\Debug\netcoreapp2.0\backend.csproj.CoreCompileInputs.cache
+C:\Users\wesley\angularprimeng\backend\obj\Debug\netcoreapp2.0\backend.AssemblyInfoInputs.cache
+C:\Users\wesley\angularprimeng\backend\obj\Debug\netcoreapp2.0\backend.AssemblyInfo.cs
+C:\Users\wesley\angularprimeng\backend\bin\Debug\netcoreapp2.0\backend.deps.json
+C:\Users\wesley\angularprimeng\backend\bin\Debug\netcoreapp2.0\backend.runtimeconfig.json
+C:\Users\wesley\angularprimeng\backend\bin\Debug\netcoreapp2.0\backend.runtimeconfig.dev.json
+C:\Users\wesley\angularprimeng\backend\bin\Debug\netcoreapp2.0\backend.dll
+C:\Users\wesley\angularprimeng\backend\bin\Debug\netcoreapp2.0\backend.pdb
+C:\Users\wesley\angularprimeng\backend\obj\Debug\netcoreapp2.0\backend.dll
+C:\Users\wesley\angularprimeng\backend\obj\Debug\netcoreapp2.0\backend.pdb
