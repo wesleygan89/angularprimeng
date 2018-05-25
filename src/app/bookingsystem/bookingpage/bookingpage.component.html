@@ -1,0 +1,111 @@
+<div class="home">
+<div class="features">
+  <h3>Enter your personal details</h3>
+  </div>
+  <div class="content-section implementation GridDemo">
+  <div class="ui-g">
+      <div class="ui-g-12 ui-md-12 ui-g-nopad">
+         
+          <div class="ui-g-12 ui-g-nopad">
+              <p-card title="Guest Details" >
+              <div class="ui-g">
+                 
+                  <div class="ui-g-12 ui-md-4">
+                     
+                      <h4 class="first">Guest's Name</h4>
+                      <div class="ui-inputgroup">
+                          <span class="ui-inputgroup-addon"><i class="fa fa-user"></i></span>
+                          <input type="text" pInputText placeholder="Guest's Name">         
+                      </div>
+                    
+                  </div>
+                      <div class="ui-g-12 ui-md-4">
+                          <h4 class="first">Email Address</h4>
+                          <div class="ui-inputgroup">
+                            
+                          <span class="ui-float-label">
+                              <input id="float-input" type="text"  pInputText> 
+                              <label for="float-input">Sample: guest@xxx.com</label>
+                          </span>
+                        </div>
+                   
+                      </div>
+                          
+                      <div class="ui-g-12 ui-md-4">
+                          <h4 class="first">Contact Number</h4>
+                          <div class="ui-inputgroup">
+                        
+                          <span class="ui-float-label">
+                              <input id="float-input" type="text" pInputText> 
+                              <label for="float-input">01x-xxxxxxx</label>
+                          </span>
+                          </div>
+                      </div>
+                   
+                    </div>
+                  </p-card>
+
+                  <p-card title="Booking Details" >
+              
+                    <div class="ui-g">
+                        <div class="ui-g-12 ui-md-4">
+                            <h4 class="first">Date</h4>
+                           
+                               <p-calendar [(ngModel)]="date1"></p-calendar>
+                              
+                            
+                            <h5>Selected Date:  {{date ? date1 : 'none'}}</h5>
+                        </div>
+                            <div class="ui-g-12 ui-md-4">
+                                <h4 class="first">Time Slot</h4>
+                                <div class="ui-inputgroup">
+                                    <p-dropdown [options]="timeslot" [(ngModel)]="selectedTime" placeholder="Select a Time" optionLabel="name" [showClear]="true"></p-dropdown>
+                                      
+                                </div>
+                                <h5>Selected Time Slot: {{selectedTime ? selectedTime.name : 'none'}}</h5>  
+                            </div>
+                            <div class="ui-g-12 ui-md-4">
+                                <h4 class="first">Number of Pax</h4>
+                                <div class="ui-inputgroup">
+                                    <p-spinner [(ngModel)]="numofpax" [min]="0" [max]="4"></p-spinner>
+                                </div>
+                                <h5>Pax: {{numofpax ? numofpax : 'none'}}</h5>  
+                            </div>
+                          
+                          </div>
+                        </p-card>
+
+                        <p-card title="Extra Information" >
+                        <div class="ui-g">
+                           <div class="ui-g-12 ui-md-12">
+                             
+                                    <h4 class="first">Remark</h4>
+                                    <textarea [rows]="5" [cols]="50" pInputTextarea autoResize="autoResize"></textarea>
+                              
+                            </div>
+                        </div>    
+                      </p-card> 
+              <div class="ui-g">
+            
+                      
+    
+                  <div class="ui-g-12 ui-md-12">
+                      Our staff shall get back to you as soon as possible for the booking confirmation</div>
+                  
+              </div>
+          </div>
+      </div>
+      <div class="ui-g-12">
+          <p-button (onClick)="book()" icon="fa fa-fw fa-check" iconPos="right" label="Book">
+                        
+            </p-button>
+      </div>
+  </div>
+
+
+
+</div>
+
+
+ 
+
